@@ -121,6 +121,39 @@ h6 {
     z-index: 2;
 }
 
+#header .btn-read-more {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    font-size: 1.4rem;
+}
+
+#header .btn-read-more span {
+    margin-right: 1rem;
+}
+
+#header .btn-read-more i {
+    transition: transform 0.3s ease;
+}
+
+#header .btn-read-more:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(231, 111, 81, 0.3);
+}
+
+#header .btn-read-more:hover i {
+    transform: translateX(5px);
+}
+
 /* Category Styling */
 .category {
     display: inline-block;
